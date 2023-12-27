@@ -43,7 +43,7 @@ for key, value in column_key_value.items():
     print(key, value)
 
 # 指定目录路径 path/to/directory
-dir = "./dir"
+dir = "./workdir"
 
 table_count = open_and_save(dir, table_key_value)
 print("Replace table", table_count)
